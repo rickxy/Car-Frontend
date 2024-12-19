@@ -1,0 +1,152 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #28a745; /* Green color */
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #004080;
+    color: #03491a;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  
+  .navbar a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Page Header */
+  .page-header {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .page-header h1 {
+    font-size: 2rem;
+    color: #004080;
+    text-transform: uppercase;
+  }
+  
+  /* Table Styles */
+  .table-container {
+    overflow-x: auto;
+    margin: 20px 0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #004080;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table tr:hover {
+    background-color: #e6f7ff;
+  }
+  
+  /* Buttons */
+  .btn {
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #004080;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #002b4d;
+  }
+  
+  .btn-danger {
+    background-color: #d9534f;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c9302c;
+  }
+  
+  .btn-success {
+    background-color: #5cb85c;
+  }
+  
+  .btn-success:hover {
+    background-color: #4cae4c;
+  }
+  
+  /* Forms */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px 0;
+  }
+  
+  form input, form select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    margin-top: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar a {
+      margin-bottom: 5px;
+    }
+  
+    table th, table td {
+      font-size: 0.9rem;
+      padding: 5px;
+    }
+  }
+  

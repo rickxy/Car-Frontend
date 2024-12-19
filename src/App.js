@@ -6,6 +6,7 @@ import CarBrands from "./pages/CarBrands";
 import Cars from "./pages/Cars";
 import CarParts from "./pages/CarParts";
 import Navbar from "./components/Navbar";
+import './custom.css';
 
 function App() {
   return (
